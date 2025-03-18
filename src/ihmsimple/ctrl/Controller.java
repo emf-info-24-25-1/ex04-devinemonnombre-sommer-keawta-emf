@@ -37,10 +37,10 @@ public class Controller {
      * qu’elles valeurs initiales donner. Pour la valeur initiale de l’attribut
      * nombre, utilisez NOMBRE_INVALIDE.
      */
-    public Controller(int nombre, View refView, ServiceDevine refServiceDevine) {
+    public Controller() {
         this.nombre = NOMBRE_INVALIDE;
-        this.refView = refView;
-        this.refServiceDevine = refServiceDevine;
+        this.refView = null;
+        this.refServiceDevine = null;
     }
 
     /**

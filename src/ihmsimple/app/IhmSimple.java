@@ -1,7 +1,7 @@
 package ihmsimple.app;
 
-import java.lang.ModuleLayer.Controller;
 
+import ihmsimple.ctrl.Controller;
 import ihmsimple.services.ServiceDevine;
 
 public class IhmSimple {
@@ -15,7 +15,7 @@ public class IhmSimple {
      */
     public static void main(String[] args) {
         Controller refCtrl = new Controller();
-        ServiceDevine refServiceDevine = new ServiceDevine(refCtrl);
+        ServiceDevine refServiceDevine = new ServiceDevine();
     }
 
 }

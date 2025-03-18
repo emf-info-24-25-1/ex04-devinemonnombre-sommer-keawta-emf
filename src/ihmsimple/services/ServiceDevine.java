@@ -39,8 +39,8 @@ public class ServiceDevine {
          * Pour la référence au contrôleur, vous devez à présent savoir quelle valeur
          * initiale donner.
          */
-        public ServiceDevine(Controller refCtrl ) {
-            this.refCtrl = refCtrl;
+        public ServiceDevine () {
+            this.refCtrl = null;
     }
 
     /**
