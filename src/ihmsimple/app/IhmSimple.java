@@ -1,7 +1,11 @@
 package ihmsimple.app;
 
+import java.lang.ModuleLayer.Controller;
+
+import ihmsimple.services.ServiceDevine;
+
 public class IhmSimple {
-    
+
     /**
      * Méthode principale de l'application qui instancie les objets MVC et les relie
      * entre eux.
@@ -10,7 +14,8 @@ public class IhmSimple {
      * @param args arguments de la ligne de commande
      */
     public static void main(String[] args) {
-        // VOTRE CODE ICI...
+        Controller refCtrl = new Controller();
+        ServiceDevine refServiceDevine = new ServiceDevine(refCtrl);
     }
 
 }
